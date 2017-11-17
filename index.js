@@ -8,3 +8,7 @@ function logShout(string) {
 console.log(shout (string))
 }
 logShout('hello')
+function logWhisper(string) {
+  console.log(whisper(string))
+}
+logWhisper('HELLO')
