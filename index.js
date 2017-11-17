@@ -5,4 +5,4 @@ function whisper(string) {
   return string.toLowerCase()
 }
 shout ('hello')
-console.log('${string}')
+console.log(shout ('hello'))
