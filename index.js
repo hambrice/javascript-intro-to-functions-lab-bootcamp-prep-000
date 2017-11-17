@@ -4,8 +4,8 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-function logShout(string) {
-  console.log(
-    "${string}")
+function sayHelloTo(firstName) {
+  console.log(`Hello, ${firstName}!`)
 }
-logShout("hello")
+ 
+sayHelloTo('Isabel')
